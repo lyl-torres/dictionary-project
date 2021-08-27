@@ -10,7 +10,7 @@ export default function App() {
         <img src={lupa} className="App-lupa" alt="lupa" /> 
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="bloom" />
       </main>
       <footer className="App-footer">
         <small>Coded by Liliana Blattner</small>
