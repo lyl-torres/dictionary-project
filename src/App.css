@@ -3,6 +3,10 @@ body {
   font-family: Lato, Didot, serif;
 }
 
+background {
+  color: #e1c4a4;
+}
+
 a {
   color: #ffbe3c;
 }
@@ -15,16 +19,24 @@ a {
 }
 
 .App-lupa {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 8px;
 }
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: -10px 0;
+  font-size: 11px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    serif;
 }
 
-background {
-  color: #e1c4a4;
+.App-footer a {
+  color: #f3eadb;
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
 }
